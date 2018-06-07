@@ -33,7 +33,7 @@ public class MainFragmentActivity extends FragmentActivity implements View.OnCli
     private final ArrayList<BottomTabBean> TAB_BEANS = new ArrayList<>();
     private final ArrayList<Fragment> FRAGMENTS = new ArrayList<>();
     private static int mCurrentFragment = 0;
-    private final int mClickedColor = Color.RED;  //为点击的字体颜色
+    private final int mClickedColor = Color.RED;  //未点击的字体颜色
     private final int mNormalColor = Color.GRAY;  //点击的字体颜色
 
 

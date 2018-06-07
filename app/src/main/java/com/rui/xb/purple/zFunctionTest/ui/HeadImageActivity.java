@@ -41,7 +41,7 @@ public class HeadImageActivity extends AppCompatActivity {
         HeadImageActivityPermissionsDispatcher.startCameraWithPermissionCheck(this);
 
     }
-
+    //申请相机权限 和 读写权限。
     @NeedsPermission({Manifest.permission.CAMERA,Manifest.permission.WRITE_EXTERNAL_STORAGE})
     void startCamera(){
         DialogForChooseAvatar dialog = new DialogForChooseAvatar(this);
